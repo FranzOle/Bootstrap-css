@@ -3,33 +3,57 @@ body::after{
     position: fixed;
     right: 0;
     top: 0;
+    
+}
+
+.bgg{
+     background-color: rgba(245, 245, 245, 0.486);
+}
+.lebar{
+width:50%;
 }
 @media (min-width:576px) {
     body::after{
         content: "SM";
     }
+    .lebar{
+        width:30%;
+        }
+
 }
 
 @media (min-width:768px) {
     body::after{
         content: "MD";
     }
+    .lebar{
+        width:30%;
+        }
 }
 
 @media (min-width:992px) {
     body::after{
         content: "LG";
     }
+    .lebar{
+        width:30%;
+        }
 }
 
 @media (min-width:1200px) {
     body::after{
         content: "XL";
     }
+    .lebar{
+        width:30%;
+        }
 }
 
 @media (min-width:1400px) {
     body::after{
         content: "XXL";
     }
+    .lebar{
+        width:30%;
+        }
 }
