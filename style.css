@@ -9,9 +9,17 @@ body::after{
 .bgg{
      background-color: rgba(245, 245, 245, 0.486);
 }
+
 .lebar{
 width:50%;
 }
+.carousel-item img{
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
 @media (min-width:576px) {
     body::after{
         content: "SM";
