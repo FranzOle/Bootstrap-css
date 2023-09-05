@@ -22,9 +22,8 @@ width:50%;
 }
 
 .kotak{
-
     height: 10vh;
-    color: white;
+    color: rgb(45, 82, 202);
 }
 @media (min-width:576px) {
     body::after{
