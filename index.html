@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <script src="bootstrap/js/bootstrap.bundle.min.js" async defer></script>
+    
   </head>
   <body>
     <nav class="navbar shadow-sm bgg">
@@ -82,7 +83,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- Row Col  -->
+      <!-- Row Col Card-->
       <div class="container-fluid">
         <div class="row bg-primary">
           <div class="col text-white text-center py-3">
@@ -96,7 +97,7 @@
               <div class="card-body">
                 <h5 class="card-title">HTML</h5>
                 <p class="card-text">Belajar HTML dengan menyenangkan.</p>
-                <a href="#" class="btn btn-primary">Daftar</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-primary">Daftar</a>
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@
               <div class="card-body">  
                 <h5 class="card-title">CSS</h5>
                 <p class="card-text">Belajar CSS dengan <br> menyenangkan.</p>
-                <a href="#" class="btn btn-primary">Daftar</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-primary">Daftar</a>
               </div>
             </div>
           </div>
@@ -118,7 +119,7 @@
               <div class="card-body"> 
                 <h5 class="card-title">Javascript</h5>
                 <p class="card-text">Belajar Javascript dengan menyenangkan.</p>
-                <a href="#" class="btn btn-primary">Daftar</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-primary">Daftar</a>
               </div>
             </div>
           </div>
@@ -129,12 +130,30 @@
               <div class="card-body">
                 <h5 class="card-title">PHP</h5>
                 <p class="card-text">Belajar PHP dengan <br> menyenangkan.</p>
-                <a href="#" class="btn btn-primary">Daftar</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-primary">Daftar</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Modal -->
+      <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem Ipsum</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+              <button type="button" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </body>
   </body>
 </html>
 
