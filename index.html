@@ -10,6 +10,7 @@
     
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar shadow-sm bgg">
       <div class="container-fluid navbar-expand-lg ">
         <div class="d-flex">
@@ -136,19 +137,29 @@
           </div>
         </div>
       </div>
-      <!-- Modal -->
+      <!-- Modal Form-->
       <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem Ipsum</h1>
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Form</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email :</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email :">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Name : </label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama akun">
+                </div>
+              </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-              <button type="button" class="btn btn-primary">Save</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
             </div>
           </div>
         </div>
